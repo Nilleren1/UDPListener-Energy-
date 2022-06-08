@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>UDPListener_Energy_</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="EngergyLib">
+      <HintPath>..\EngergyLib\bin\Debug\net5.0\EngergyLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
